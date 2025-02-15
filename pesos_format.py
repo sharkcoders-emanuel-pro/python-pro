@@ -1,8 +1,15 @@
-peso1 = int(input("introduza aqui o seu peso: "))
-peso2 = int(input("introduza aqui o seu peso: "))
-peso3 = int(input("introduza aqui o seu peso: "))
-peso4 = int(input("introduza aqui o seu peso: "))
-peso5 = int(input("introduza aqui o seu peso: "))
+maior = menor = 0
 
-for i in range(peso1 , peso5):
-    if peso1 <= peso2:
+
+for n in range(1,6):
+    num = int(input(f" Entre com o {n}º peso: "))
+    if n == 1:
+        maior = menor = num
+    if num > maior:
+        maior = num
+    if num < menor:
+        menor = num
+
+
+print (" O Número maior é:", maior)
+print (" O Número maior é:", menor)
