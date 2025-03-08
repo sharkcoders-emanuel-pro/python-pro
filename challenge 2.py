@@ -1,4 +1,4 @@
-kWh = float(input("introduza a sua quantidade: "))
+kWh = float(input("introdusa a sua quantidade: "))
 tipo_habitacao = input("introduza sua tipologia: ")
 
 if tipo_habitacao == "R" or tipo_habitacao == "r":
